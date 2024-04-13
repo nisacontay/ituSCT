@@ -54,10 +54,10 @@ class Mission:
     def addSpaceShipStaff(self, staff):
         typeStaff = type(staff)
         if typeStaff == Astronaut:
-            self.crew.append(staff.name)
+            self.crew.append(staff)
         elif typeStaff == Passenger:
             if staff.ticket:
-                self.passengers.append(staff.name)
+                self.passengers.append(staff)
             else:
                 print("Passengers need ticket!")
 
