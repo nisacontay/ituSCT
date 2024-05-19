@@ -1,0 +1,3 @@
+/Users/nisacontay/Desktop/ituSCT/task1/matrixProject/build/CMakeFiles/MatrixProject.dir
+/Users/nisacontay/Desktop/ituSCT/task1/matrixProject/build/CMakeFiles/edit_cache.dir
+/Users/nisacontay/Desktop/ituSCT/task1/matrixProject/build/CMakeFiles/rebuild_cache.dir

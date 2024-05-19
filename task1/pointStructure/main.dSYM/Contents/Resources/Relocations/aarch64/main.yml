@@ -1,0 +1,20 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/nisacontay/Desktop/ituSCT/task1/pointStructure/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000038D8, symSize: 0x84 }
+  - { offsetInCU: 0x4687, offset: 0x4687, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x240, symBinAddr: 0x100003B18, symSize: 0x58 }
+  - { offsetInCU: 0x46C7, offset: 0x46C7, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB8ue170006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x5D8, symBinAddr: 0x100003EB0, symSize: 0x2C }
+  - { offsetInCU: 0x7121, offset: 0x7121, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000038D8, symSize: 0x84 }
+  - { offsetInCU: 0x71A6, offset: 0x71A6, size: 0x8, addend: 0x0, symName: __ZN5PointC1Efff, symObjAddr: 0x84, symBinAddr: 0x10000395C, symSize: 0x44 }
+  - { offsetInCU: 0x71F8, offset: 0x71F8, size: 0x8, addend: 0x0, symName: __Z6region5Point, symObjAddr: 0xC8, symBinAddr: 0x1000039A0, symSize: 0x14C }
+  - { offsetInCU: 0x72D1, offset: 0x72D1, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ue170006EPFRS3_S4_E, symObjAddr: 0x214, symBinAddr: 0x100003AEC, symSize: 0x2C }
+  - { offsetInCU: 0x7303, offset: 0x7303, size: 0x8, addend: 0x0, symName: __Z13zero_distance5Point, symObjAddr: 0x298, symBinAddr: 0x100003B70, symSize: 0x54 }
+  - { offsetInCU: 0x733D, offset: 0x733D, size: 0x8, addend: 0x0, symName: __Z4sqrtB8ue170006f, symObjAddr: 0x2EC, symBinAddr: 0x100003BC4, symSize: 0x18 }
+  - { offsetInCU: 0x736B, offset: 0x736B, size: 0x8, addend: 0x0, symName: __Z8distance5PointS_, symObjAddr: 0x304, symBinAddr: 0x100003BDC, symSize: 0x90 }
+  - { offsetInCU: 0x73DD, offset: 0x73DD, size: 0x8, addend: 0x0, symName: __Z7compare5PointS_, symObjAddr: 0x394, symBinAddr: 0x100003C6C, symSize: 0xAC }
+  - { offsetInCU: 0x7433, offset: 0x7433, size: 0x8, addend: 0x0, symName: __Z17is_in_same_region5PointS_, symObjAddr: 0x440, symBinAddr: 0x100003D18, symSize: 0xDC }
+  - { offsetInCU: 0x746D, offset: 0x746D, size: 0x8, addend: 0x0, symName: __ZN5PointC2Efff, symObjAddr: 0x51C, symBinAddr: 0x100003DF4, symSize: 0x38 }
+  - { offsetInCU: 0x74BF, offset: 0x74BF, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ue170006Ec, symObjAddr: 0x554, symBinAddr: 0x100003E2C, symSize: 0x84 }
+  - { offsetInCU: 0x752B, offset: 0x752B, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB8ue170006Ec, symObjAddr: 0x604, symBinAddr: 0x100003EDC, symSize: 0x38 }
+...
