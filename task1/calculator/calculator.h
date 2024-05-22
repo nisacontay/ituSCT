@@ -1,6 +1,12 @@
 #include <iostream>
 
 /**
+ * İTÜ Solar Car Team
+ * Nisa Çontay
+ * 19.05.2024
+ */
+
+/**
  * @class Calculator
  * @brief A class for performing basic arithmetic operations.
  */

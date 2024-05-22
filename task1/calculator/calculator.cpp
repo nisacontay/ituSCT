@@ -3,6 +3,12 @@
 #include <cmath>
 
 /**
+ * İTÜ Solar Car Team
+ * Nisa Çontay
+ * 19.05.2024
+ */
+
+/**
  * @brief Adds two floating-point numbers.
  * @param x First number.
  * @param y Second number.
@@ -40,10 +46,8 @@ float Calculator::multiplication(float x, float y) {
  * @throws const char* if y is zero.
  */
 float Calculator::division(float x, float y) {
-    try {
-        if (y == 0) throw "Zero division!";
-    } catch (const char* msg) {
-        std::cout << "Exception caught: " << msg << std::endl;
+    if (y == 0) {
+        throw "Zero division!"; 
         return 0;
     }
     return (x / y);
@@ -65,10 +69,11 @@ float Calculator::square(float x) {
  * @return The result of x raised to the power y.
  */
 float Calculator::exponentiation(float x, float y) {
-    float var = 1;
-    for (int i = 0; i < y; i++) {
-        var *= x;
-    }
+    // float var = 1;
+    // for (int i = 0; i < y; i++) {
+    //     var *= x;
+    // }
+    float var = std::pow(x, y);7
     return var;
 }
 

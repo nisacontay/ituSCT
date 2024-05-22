@@ -2,6 +2,12 @@
 #include <string>
 
 /**
+ * İTÜ Solar Car Team
+ * Nisa Çontay
+ * 19.05.2024
+ */
+
+/**
  * @brief Main function that drives the calculator program.
  * 
  * This program performs basic arithmetic operations based on user input.
@@ -100,7 +106,11 @@ int main(){
                 std::cout << Calculator.multiplication(numf1, numf2) << std::endl;
                 break;
             case 4:
-                std::cout << Calculator.division(numf1, numf2) << std::endl;
+                try {
+                    std::cout << Calculator.division(numf1, numf2) << std::endl;
+                } catch (const char* msg) {
+                    std::cout << "Exception caught: " << msg << std::endl;
+                }
                 break;
             case 5:
                 std::cout << Calculator.square(numf1) << std::endl;

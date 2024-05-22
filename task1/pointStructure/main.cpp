@@ -2,6 +2,12 @@
 #include <cmath>
 
 /**
+ * İTÜ Solar Car Team Assignment 1
+ * Nisa Çontay 
+ * 19.05.2024
+ */
+
+/**
  * @enum Region
  * @brief Enumerates the regions in a 3D space.
  */
