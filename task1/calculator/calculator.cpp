@@ -73,7 +73,7 @@ float Calculator::exponentiation(float x, float y) {
     // for (int i = 0; i < y; i++) {
     //     var *= x;
     // }
-    float var = std::pow(x, y);7
+    float var = std::pow(x, y);
     return var;
 }
 

@@ -472,15 +472,15 @@ int main() {
     // Character type
     std::cout << std::string(typeWidth + sizeWidth + 20, '-') << std::endl;
     
-    std::cout << std::left << std::setw(typeWidth) << "char" // sıkıntı var
+    std::cout << std::left << std::setw(typeWidth) << "char" 
               << std::setw(sizeWidth) << static_cast<int>(std::numeric_limits<char>::min())
               << std::setw(sizeWidth) << static_cast<int>(std::numeric_limits<char>::max()) << std::endl;
 
-    std::cout << std::left << std::setw(typeWidth) << "signed char" // sıkıntı var
+    std::cout << std::left << std::setw(typeWidth) << "signed char" 
               << std::setw(sizeWidth) << static_cast<int>(std::numeric_limits<signed char>::min())
               << std::setw(sizeWidth) << static_cast<int>(std::numeric_limits<signed char>::max()) << std::endl;
 
-    std::cout << std::left << std::setw(typeWidth) << "unsigned char" // sıkıntı var
+    std::cout << std::left << std::setw(typeWidth) << "unsigned char" 
               << std::setw(sizeWidth) << static_cast<int>(std::numeric_limits<unsigned char>::min())
               << std::setw(sizeWidth) << static_cast<int>(std::numeric_limits<unsigned char>::max()) << std::endl;
 
